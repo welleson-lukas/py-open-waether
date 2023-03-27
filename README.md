@@ -86,9 +86,8 @@ from py_open_weather import WeatherService
 
 
 try:
-
-    service = WeatherService(token="a2d4d317-c2df494d-a1ad57034b")
-    weather = service.fetch_weather(ip_address="192.168.0.1")
+    service = WeatherService(token='a2d4d317-c2df494d-a1ad57034b')
+    weather = service.fetch_weather(ip_address='192.168.0.1')
 
 except exceptions.InvalidIPAddress as eiia:
     print(eiipa)
@@ -99,7 +98,7 @@ except exceptions.CityNotFound as ecnf:
 ```
 
 ## Importante
-O projeto PyOpenWeather foi desenvolvido para fins didáticos e infelizmente não está disponível em bibliotecas públicas para uso geral. Fique à vontade para utiliza-la em seus projetos e estudos. Abraços!
+O projeto PyOpenWeather foi desenvolvido para fins didáticos e infelizmente não está disponível em bibliotecas públicas para uso geral. Fique à vontade para utiliza-lo em seus projetos e estudos. Abraços!
 
 ## Créditos
 
