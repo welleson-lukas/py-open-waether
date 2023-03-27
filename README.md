@@ -1,5 +1,6 @@
 <p align="center">
   <a href="#como-usar">Como Usar</a> |
+  <a href="#importante">Importante</a> |
   <a href="#créditos">Créditos</a>
 </p>
 
